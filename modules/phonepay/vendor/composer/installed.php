@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'dwivedianuj9118/phonepe-payment-gateway' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '3157058976ca2538590a90e259f4ba587d7f0c9d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../dwivedianuj9118/phonepe-payment-gateway',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'phonepe/phonepe-pg-php-sdk' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phonepe/phonepe-pg-php-sdk',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'rmccue/requests' => array(
+            'pretty_version' => 'v2.0.12',
+            'version' => '2.0.12.0',
+            'reference' => 'fb67e3d392ff6b89a90e96f19745662f4ecd62b1',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../rmccue/requests',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
